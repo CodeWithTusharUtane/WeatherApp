@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App by Tushar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Get Weather of any City you want</h1>
+        <input class="inp-1" id="inp" type="text" placeholder="Enter the city?">
+        <button type="submit" class="submitB" id="get" >Get</button>
+    </div>
+    <div class="heading-city">
+        <h2>Weather for <span class="city" id="gg">Delhi</span></h2>
+    </div>
+    <div class="main">
+        <span id="city-name">Delhi</span>
+        <img src="/Fair.svg" alt="cutecloud">
+        <h4>Temperature: <span id="temp" >0</span></h4>
+        <ul>
+            <li>Cloud PCT: <span id="cloud_pct"> 0</span></li>
+            <li>Feels like: <span id="feels_like" >0</span></li>
+            <li>Humidity: <span id="humidity" >0</span></li>
+            <li>max temp: <span id="max_temp" >0</span></li>
+            <li>min temp: <span id="min_temp" >0</span></li>
+            <li>sunrise: <span id="sunrise" >0</span></li>
+            <li>sunset: <span id="sunse" >0</span></li>
+            <li>wind speed: <span id="wind_speed" >0</span></li>
+            <li>wind degrees: <span id="wind_degrees" >0</span></li>
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
